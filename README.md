@@ -1,9 +1,10 @@
-#HolistiFit
+# HolistiFit
 
 HolistiFit is a full-stack fitness application integrating AI to provide personalized fitness guidance. The project is structured as follows:
 
-Project Structure
+## Project Structure
 
+```
 HolistiFit/
 │── frontend/       # React.js frontend
 │── backend/        # Node.js + Express backend
@@ -15,62 +16,65 @@ HolistiFit/
 │── package.json    # Project dependencies
 │── .env            # Environment variables
 │── README.md       # Project documentation
+```
 
-Technologies Used
+## Technologies Used
 
-Frontend: React.js
+- **Frontend**: React.js
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **AI Chatbot**: Custom AI model integration
 
-Backend: Node.js, Express.js
+## Getting Started
 
-Database: MongoDB
-
-AI Chatbot: Custom AI model integration
-
-Getting Started
-
-Prerequisites
+### Prerequisites
 
 Ensure you have the following installed:
 
-Node.js
+- Node.js
+- npm or yarn
+- MongoDB
 
-npm or yarn
+### Installation
 
-MongoDB
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/krtarun7/FitnessTracker.git
+    ```
 
-Installation
+2. Navigate to the project directory:
+    ```bash
+    cd FitnessTracker
+    ```
 
-Clone the repository:
+3. Install dependencies:
+    ```bash
+    cd frontend && npm install
+    cd ../backend && npm install
+    ```
 
-git clone https://github.com/krtarun7/FitnessTracker.git
+4. Configure environment variables in `.env`.
 
-Navigate to the project directory:
+### Running the Project
 
-cd FitnessTracker
+#### Start the Backend
 
-Install dependencies:
-
-cd frontend && npm install
-cd ../backend && npm install
-
-Configure environment variables in .env.
-
-Running the Project
-
-Start the backend:
-
+```bash
 cd backend
 npm start
+```
 
-Start the frontend:
+#### Start the Frontend
 
+```bash
 cd frontend
 npm start
+```
 
-Contribution
+## Contribution
 
 Feel free to contribute by submitting issues or creating pull requests.
 
-License
+## License
 
 This project is licensed under the MIT License.
